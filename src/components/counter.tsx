@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 
 export function Counter() {
@@ -17,7 +19,7 @@ export function Counter() {
   return (
     <div>
       <p>Count: {count}</p>
-      <button onClick={increment}></button>
+      <button onClick={increment}>Increment</button>
     </div>
   );
 }
